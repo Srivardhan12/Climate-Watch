@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: calc(100vh - 90px);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.first {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.second {
+  display: grid;
+  grid-area: 1/2/2/3;
+
+}
+
+.third {
+  display: grid;
+  grid-area: 2/2/3/3;
+}
+
+.cont1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.height {
+  height: calc(100vh - 250px);
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-brand {
+  font-family: 'Rock Salt', cursive;
+}
