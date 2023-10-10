@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+# Project title: ClimateWatch
+# Description: Our application provides the temperature of a paticular location, and also allows user to set a maximum and minimum temprature. If the temperature exceeds to the given values then ClimateWatch sends an alert message to the user. 
+
 ###  `npm install`
 
 This will download all project dependency
