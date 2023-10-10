@@ -1,5 +1,13 @@
 # Getting Started with Create React App
 
+###  `npm install`
+
+This will download all project dependency
+
+### `npm i react-router`
+
+This project uses react router
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
